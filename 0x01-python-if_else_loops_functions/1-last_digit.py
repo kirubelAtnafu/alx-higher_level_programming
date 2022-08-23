@@ -4,7 +4,7 @@ number = random.randint(-10000, 10000)
 tempNum = number
 if number < 0:
     number = -(number)
-    lastDigit = number % 10
+lastDigit = number % 10
 if tempNum < 0:
     number = tempNum
     lastDigit = -(lastDigit)
